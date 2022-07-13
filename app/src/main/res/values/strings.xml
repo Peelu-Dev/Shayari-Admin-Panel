@@ -5,4 +5,7 @@
     <string name="custom_toolbar">custom_toolbar</string>
     <string name="_shayari_admin_panel">Shayari Admin Panel</string>
     <string name="add">add</string>
+    <string name="shayari">तुझे ख़्वाबों में पाकर दिल का क़रार खो ही जाता है, मैं जितना रोकूँ ख़ुद को तुझसे प्यार हो ही जाता है।</string>
+    <string name="delete">delete</string>
+    <string name="hindi_category">Hindi Category</string>
 </resources>
