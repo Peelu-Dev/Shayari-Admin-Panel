@@ -2,4 +2,7 @@
     <string name="app_name">Shayari Admin App</string>
     <string name="logo">logo</string>
     <string name="shayari_admin_panel">Shayari Admin Panel</string>
+    <string name="custom_toolbar">custom_toolbar</string>
+    <string name="_shayari_admin_panel">Shayari Admin Panel</string>
+    <string name="add">add</string>
 </resources>

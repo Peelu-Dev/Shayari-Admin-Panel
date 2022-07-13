@@ -6,13 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/red"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/bold"
+                android:text="@string/_shayari_admin_panel"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                tools:ignore="RelativeOverlap">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/btnAddCat"
+                android:layout_marginEnd="20dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/ic_baseline_add_24"
+                android:layout_marginStart="20dp"
+                android:backgroundTint="@color/white"
+                android:contentDescription="@string/add">
+
+            </ImageView>
+
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerViewCategory"
+            android:layout_below="@+id/toolbar"
+            />
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
