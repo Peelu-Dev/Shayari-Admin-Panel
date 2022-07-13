@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "848364501784",
+    "project_id": "shayariapp-9f4f4",
+    "storage_bucket": "shayariapp-9f4f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848364501784:android:bf1b71d411776b299c7c6d",
+        "android_client_info": {
+          "package_name": "com.example.merishayari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848364501784-nsn6jpkrhslh85mlh0288ji9is2i1mba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSZ2Vj0MZYJZHYGqgcqarydDIkPWoCvRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848364501784-nsn6jpkrhslh85mlh0288ji9is2i1mba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848364501784:android:448c54411c52e8eb9c7c6d",
+        "android_client_info": {
+          "package_name": "com.example.shayariadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848364501784-nsn6jpkrhslh85mlh0288ji9is2i1mba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSZ2Vj0MZYJZHYGqgcqarydDIkPWoCvRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848364501784-nsn6jpkrhslh85mlh0288ji9is2i1mba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
