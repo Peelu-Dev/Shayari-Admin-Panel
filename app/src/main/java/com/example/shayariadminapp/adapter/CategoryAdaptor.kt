@@ -1,11 +1,13 @@
 package com.example.shayariadminapp.adapter
 
 
+import android.content.Intent
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.example.shayariadminapp.AllShayariActivity
 import com.example.shayariadminapp.MainActivity
 import com.example.shayariadminapp.databinding.ItemCategoryBinding
 import com.example.shayariadminapp.model.CategoryModel
@@ -47,10 +49,10 @@ class CategoryAdaptor(val mainActivity: MainActivity, val shayari: ArrayList<Cat
 
         holder.binding.itemText.text = shayari[position].name.toString()
         holder.binding.root.setOnClickListener{
-//            val intent = Intent(mainActivity,AllShayariActivity::class.java)
-//            intent.putExtra("id",shayari[position].id)
-//            intent.putExtra("name",shayari[position].name)
-//            mainActivity.startActivity(intent)
+            val intent = Intent(mainActivity, AllShayariActivity::class.java)
+            intent.putExtra("id",shayari[position].id)
+            intent.putExtra("name",shayari[position].name)
+            mainActivity.startActivity(intent)
         }
     }
 
